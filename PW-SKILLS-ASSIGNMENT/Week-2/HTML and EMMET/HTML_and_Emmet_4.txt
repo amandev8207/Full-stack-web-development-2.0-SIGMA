@@ -1,0 +1,11 @@
+4. List out any 3 tags we Learned in this module and give a brief explaination about the tags.
+
+Ans:- ns: The 3 tags which we have learned in this module are:
+
+<p></p>:-The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.
+
+
+<h6></h6>:-<h6> defines the least important heading. Note: Only use one <h1> per page - this should represent the main heading/subject for the whole page. Also, do not skip heading levels - start with <h1> , then use <h2> , and so on.
+
+
+<div></div>:- The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. The <div> tag is easily styled by using the class or id attribute. Any sort of content can be put inside the <div> tag!

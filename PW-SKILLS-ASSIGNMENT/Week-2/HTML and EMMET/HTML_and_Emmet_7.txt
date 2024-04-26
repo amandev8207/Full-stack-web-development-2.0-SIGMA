@@ -1,0 +1,58 @@
+7. Explain in brief about the nesting operators in emmet.
+
+Ans:- 
+1.  Child: >
+You can use > operator to nest elements inside each other:
+
+div>ul>li
+...will produce
+
+<div>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+
+2.  Sibling: +
+Use + operator to place elements near each other, on the same level:
+
+div+p+bq
+
+...will output
+
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+3.Climb-up: ^
+With > operator you’re descending down the generated tree and positions of all sibling elements will be resolved against the most deepest element:
+
+div+div>p>span+em 
+...will be expanded to
+
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+</div>
+With ^ operator, you can climb one level up the tree and change context where following elements should appear:
+
+div+div>p>span+em^bq
+...outputs to
+
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+    <blockquote></blockquote>
+</div>
+You can use as many ^ operators as you like, each operator will move one level up:
+
+div+div>p>span+em^^^bq
+...will output to
+
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+</div>
+
+4. Multiplication *
+With * operator you can define how many times an element should be outputted.

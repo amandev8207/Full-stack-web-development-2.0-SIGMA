@@ -1,0 +1,11 @@
+5.What is Emmet? List some of the advantages emmet offers?
+
+Ans:-Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, email designers type less, saving both keystrokes and time when building a campaign. Also, relying on Emmet’s autocompletion means fewer typos and missing tags, leading to more robust emails.
+
+
+Some of the advantages are-
+    1. Saves a lot of time.
+    2. Increase productivity.
+    3. Efficient Programming.
+    4. Makes coding more fun.
+    5. Reduced Errors.  
