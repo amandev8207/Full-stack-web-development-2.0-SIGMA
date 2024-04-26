@@ -1,0 +1,35 @@
+body {
+    background-color: #758283;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .modal {
+    background-color: #fff;
+    width: 700px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    z-index: 2;
+  }
+  h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .tnc {
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #5a4bda;
+    color: white;
+  }

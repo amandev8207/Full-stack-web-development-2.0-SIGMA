@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin-top: 300px;
+}
+button{
+    padding: 10px 30px;
+    background-color: #ff6666;
+    border: 0px;
+    color: #1f1f1f;
+    font-weight: bold;
+    position: relative;
+    border-radius: 4px;
+}
+span{
+    background-color: #2cabe2;
+    color: yellow;
+    border-radius: 4px;
+    padding: 5px 9px;
+    font-size: 10px;
+    position:absolute;
+    width: 40px;
+    bottom: 30px;
+}

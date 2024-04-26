@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+section{
+    float: left;
+    width: 60%;
+    margin: 200px 50px;
+}
+
+img{
+    float: right;
+    width: 30%;
+    margin-top: 150PX;
+}
+    h1{
+        font-size: 60px;
+        margin: 0px;
+    }
+    p{
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button{
+        padding:10px 25px;
+        margin-top: 20px;
+        background-color: #5a4bda;
+        font-weight: 700;
+        border-radius: 5px;
+        border: 0px;
+    }

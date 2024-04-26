@@ -1,0 +1,56 @@
+body {
+    background-color: #758283;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .modal {
+    background-color: #fff;
+    width: 700px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    z-index: 2;
+  }
+  h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .input-01 {
+    width: 99%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .input-02 {
+    width: 49%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .input-03 {
+    width: 99%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  button {
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #5a4bda;
+    color: white;
+  }

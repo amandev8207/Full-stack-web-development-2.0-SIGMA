@@ -1,0 +1,35 @@
+body {
+    background-color: #242b2e;
+    padding: 0px 150px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .offer-banner{
+    background-color: #ff6666;
+    padding: 2px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .section-one {
+    text-align: center;
+  }
+
+  h1,
+  h2 {
+    color: #e07c24;
+  }
+
+  p {
+    color: white;
+  }
+
+  .section-one > img {
+    width: 400px;
+  }
+
+  .section-one > p {
+    text-align: left;
+  }
