@@ -1,0 +1,9 @@
+4. List any 3 ways which helps us in mproving accessibility of HTML.
+
+Ans: Here are some of the ways which helps us in mproving accessibility of HTML.
+
+1. Page Layouts:- In the bad old days, people used to create page layouts using HTML tables — using different table cells to contain the header, footer, sidebar, main content column, etc. This is not a good idea because a screen reader will likely give out confusing readouts, especially if the layout is complex and has many nested tables.
+
+2. UI Controls:- By UI controls, we mean the main parts of web documents that users interact with — most commonly buttons, links, and form controls. In this section, we'll look at the basic accessibility concerns to be aware of when creating such controls. Later articles on WAI-ARIA and multimedia will look at other aspects of UI accessibility.
+
+3. Text Alternates:- Whereas textual content is inherently accessible, the same cannot necessarily be said for multimedia content — image and video content cannot be seen by visually-impaired people, and audio content cannot be heard by hearing-impaired people. We cover video and audio content in detail in the Accessible multimedia, but for this article we'll look at accessibility for the humble
