@@ -1,0 +1,53 @@
+body {
+    background-color: #cad5e2;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .card {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  img {
+    width: 100%;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #5a4bda;
+  }
+
+ 
+
+  .price {
+    font-weight: bolder;
+  }
+
+  h1 {
+    text-align: center;
+    color: #5a4bda;
+    margin-bottom: 10px;
+  }
+  .educator {
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+  .subtitle {
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(87, 87, 87);
+    font-size: 12px;
+  }
+
+  

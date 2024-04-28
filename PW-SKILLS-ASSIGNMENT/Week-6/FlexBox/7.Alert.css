@@ -1,0 +1,22 @@
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 1800, "GRAD" 0, "opsz" 48;
+    font-size: 30px;
+
+    padding: 0px 20px;
+  }
+.alert{
+    margin-top: 10px;
+    height: 50px;
+    width: 98%;
+    background-color: #fee2e2;
+    border-radius: 10px;
+    border-left:5px solid #ef4444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#ef4444;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+    position: fixed;
+    top: 0;
+}

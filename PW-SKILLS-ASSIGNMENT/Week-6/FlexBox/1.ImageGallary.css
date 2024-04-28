@@ -1,0 +1,24 @@
+.image-1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap:wrap;
+}
+.card>img{
+   margin: 10px;
+}
+h1{
+    text-align: center;
+    color: darkgreen;
+    
+}
+    h1::first-letter{
+        color: blue;
+    }
