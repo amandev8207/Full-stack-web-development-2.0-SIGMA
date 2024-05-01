@@ -1,0 +1,226 @@
+ /* Question 5 begin here  */
+ footer{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2b1e16;
+  padding: 50px;
+
+}
+footer img {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+footer a {
+  display: block; 
+  padding: 15px;
+  color: #8c6e54;
+  text-decoration: none;
+}
+footer h1{
+  color: #fff;
+}
+footer p{
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 20px;
+  text-align: center;
+}
+
+.body-section {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2b1e16;
+}
+
+.sub-section > img {
+  background-color: #2b1e16;
+  height: 300px;
+}
+.body-section h1 {
+  color: #fff;
+}
+.body-section p {
+  color: #8c6e54;
+}
+.sub-section {
+  text-align: center;
+}
+.body-section > img {
+  width: 250px;
+}
+.sub-section-03-heading {
+  margin-top: 60px;
+}
+.sub-section-03-heading {
+  margin-top: 60px;
+}
+.container {
+  margin: auto;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  align-items: center;
+  gap: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.text {
+  padding: 0px 50px;
+}
+
+.image > img {
+  height: 600px;
+  width: 400px;
+  background-color: yellow;
+}
+
+.text h1 {
+  font-size: 40px;
+}
+
+.text p {
+  color: #4c665d;
+}
+
+.image {
+  background-color: yellow;
+}
+
+.text button {
+  padding: 10px 50px;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  margin-top: 30px;
+  font-size: large;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 50px;
+  color: #000;
+}
+
+nav a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+}
+
+nav button {
+  margin-left: 60%;
+  padding: 10px 0px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #0fdb6b;
+  color: #000;
+  font-weight: bold;
+}
+.body-section {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2b1e16;
+}
+
+.sub-section > img {
+  background-color: #2b1e16;
+}
+.body-section h1 {
+  color: #fff;
+}
+.body-section p {
+  color: #8c6e54;
+}
+.sub-section {
+  text-align: center;
+}
+.body-section > img {
+  width: 250px;
+}
+.sub-section-03-heading {
+  margin-top: 60px;
+}
+.sub-section-03-heading {
+  margin-top: 60px;
+}
+.section-04{
+  max-width: 1200px;
+  margin: auto;
+  column-gap: 60px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 30px 0px;
+}
+.section-04 .sub-section {
+  text-align: center;
+  margin-bottom: 0px;
+  width: 10 0%;
+  overflow: hidden;
+  border-radius: 25px 25px 0px 0px;
+}
+.section-04 .sub-section img {
+  text-align: center;
+  width: 100%;
+  height: 280px;
+  margin-top: -50px;
+}
+
+.section-04 .sub-section h1 {
+  margin: 0px;
+  padding: 5px 0px;
+  font-size: 30px;
+}
+
+.section-04 .sub-section p {
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.section-04 .text-section {
+  position: relative;
+  background-color: #fff;
+  margin-top: 0px;
+  top: -50px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 0px 0px 25px 25px;
+}

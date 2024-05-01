@@ -1,0 +1,74 @@
+<!-- Q-7 Design a school timetable using CSS Grid, eliminating the use of HTML tables. The objective is to create a 
+visually appealing and responsive layout that effectively represents the weekly schedule of subjects and 
+time slots. By leveraging the power of CSS Grid, ensure that the timetable is flexible, easy to maintain, and 
+provides a seamless user experience for students and teachers alike -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
+    <link rel="stylesheet" href="6.TimeTable.css">
+  </head>
+
+  <body>
+    <h1>School Timetable</h1>
+    <div class="routine">
+      <div class="heading">TIME</div>
+      <div class="heading">08:00 AM - 09:00 AM</div>
+      <div class="heading">09:00 AM - 10:00 AM</div>
+      <div class="heading">10:00 AM - 11:00 AM</div>
+      <div class="heading">11:00 AM - 12:00 PM</div>
+      <div class="heading">12:00 PM - 02:00 PM</div>
+      <div class="heading">02:00 PM - 03:00 PM</div>
+      <div class="heading">03:00 PM - 04:00 PM</div>
+
+      <div class="bold">Monday</div>
+      <div>English</div>
+      <div>Biology</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">L</div>
+      <div class="colspan-end">Chemistry LAB</div>
+
+      <div class="bold">Tuesday</div>
+      <div class="colspan-start">Biology LAB</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">U</div>
+      <div>English</div>
+      <div>Biology</div>
+
+      <div class="bold">Wednesday</div>
+      <div>English</div>
+      <div>Biology</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">N</div>
+      <div class="colspan-end text-green">Games</div>
+
+      <div class="bold">Thursday</div>
+      <div class="colspan-start">Biology LAB</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">C</div>
+      <div>English</div>
+      <div>Biology</div>
+
+      <div class="bold">Friday</div>
+      <div>English</div>
+      <div>Biology</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">H</div>
+      <div class="colspan-end">Physics Lab</div>
+
+      <div class="bold">Saturday</div>
+      <div class="colspan-start">Biology LAB</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">Break</div>
+      <div class="colspan-end text-green">LET OFF</div>
+    </div>
+  </body>
+</html>

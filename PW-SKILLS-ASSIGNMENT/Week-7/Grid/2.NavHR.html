@@ -1,0 +1,132 @@
+<!-- Q-2 The landing page designed in question 01 showcases an impressive layout and design. However, it lacks a  crucial component - a navigation bar. Without a navigation bar, users may find navigating through different 
+sections of the website challenging. To address this issue, design a navigation bar using CSS Grid, as shown  in the image below as of now there is no need to update the navigation links. Navigation Bars enhance user 
+experience, improve usability, and ensure easy access to various pages and content -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Restaurant Navbar</title>
+    <style>
+        .container {
+            margin: auto;
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 10px;
+            align-items: center;
+            gap: 20px;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                "Lucida Sans", Arial, sans-serif;
+        }
+
+        .text {
+            padding: 0px 50px;
+        }
+
+        img {
+            height: 600px;
+            width: 400px;
+            background-color: yellow;
+        }
+
+        .text h1 {
+            font-size: 40px;
+        }
+
+        .text p {
+            color: #4c665d;
+        }
+
+        .image {
+            background-color: yellow;
+        }
+
+        .text button {
+            padding: 10px 50px;
+            border: 0;
+            background-color: #000;
+            color: #fff;
+            margin-top: 30px;
+            font-size: large;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                "Lucida Sans", Arial, sans-serif;
+        }
+
+
+
+        nav a {
+            text-decoration: none;
+            padding-right: 50px;
+            color: #000;
+        }
+
+        nav a:hover {
+            color:blue;
+            font-weight: bold;
+        }
+
+        nav img {
+            height: 50px;
+            width: 50px;
+            background-color: #fff;
+        }
+
+
+        nav button {
+            margin-left: 60%;
+            padding: 10px 0px;
+            border: 0;
+            border-radius: 5px;
+            background-color: #0fdb6b;
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="./Assets/logo.png" alt="logo" />
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="container">
+        <section class="text">
+            <h1>Healthy Restaurent</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                deserunt officiis at veritatis facere doloremque ad minima corrupti?
+                Magnam voluptate officiis illo? Exercitationem obcaecati adipisci
+                veniam sed sequi est! Natus. Autem quibusdam veniam blanditiis
+                voluptate ullam, unde ad sapiente! Aliquid quisquam nostrum non soluta
+                dolores aliquam, architecto aut voluptatem laudantium ducimus magnam
+                sapiente cumque, eum ut accusantium deserunt, voluptates sit.
+                Voluptatum, ea? Debitis cum sit quos ullam? Sint, reiciendis
+                reprehenderit aut dolorum libero eius. Quasi facilis non reprehenderit
+                sint? Illo ex facere laudantium repellat modi assumenda iusto nisi
+                reprehenderit distinctio? Nihil laboriosam reiciendis magnam
+                aspernatur illum, omnis ut necessitatibus architecto
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="image">
+            <img src="./Assets/fruits.jpeg" alt="Healthy Restaurant" />
+        </section>
+    </div>
+</body>
+
+</html>

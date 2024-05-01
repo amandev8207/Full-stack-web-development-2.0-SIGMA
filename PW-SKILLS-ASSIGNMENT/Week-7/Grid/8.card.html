@@ -1,0 +1,88 @@
+<!-- Q-8 Create a simple color picker using CSS Grid to enable users to select colors efficiently. The objective is to 
+design a visually appealing interface that allows users to choose colors and obtain their corresponding 
+color codes. By leveraging CSS Grid, ensure a user-friendly layout that simplifies the color selection process. 
+Let's build a color picker similar to the one shown in the below image -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      body {
+        background-color: #1c1c1c;
+        color: #cad5e2;
+      }
+
+      .main-container {
+        max-width: 1400px;
+        width: 100%;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+          padding: 0;
+      }
+
+      h1 {
+        font-size: 40px;
+        font-weight: normal;
+        text-align: center;
+        color: #ffff00;
+      }
+      .container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+        margin: 0px 50px;
+      }
+      .item {
+        padding: 200px 0px;
+        width: 100%;
+        border-radius: 20px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        color: #000;
+      }
+.item1{
+    background-color:#8D3DAF;
+}
+.item2{
+    background-color:#E07C24;
+}
+.item3{
+    background-color:#758283;
+}
+.item4{
+    background-color:#E03B8B;
+}
+.item5{
+    background-color:#FF6666;
+}
+.item6{
+    background-color:#03C6C7;
+}
+.item7{
+    background-color:#CAD5E2;
+}
+.item8{
+    background-color:#35BDD0;
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <h1>Feeling Fancy</h1>
+      <div class="container">
+        <div class="item item1">#8D3DAF</div>
+        <div class="item item2">#E07C24</div>
+        <div class="item item3">#758283</div>
+        <div class="item item4">#E03B8B</div>
+        <div class="item item5">#FF6666</div>
+        <div class="item item6">#03C6C7</div>
+        <div class="item item7">#CAD5E2</div>
+        <div class="item item8">#35BDD0</div>
+      </div>
+    </div>
+  </body>
+</html>

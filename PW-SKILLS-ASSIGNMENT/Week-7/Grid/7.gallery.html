@@ -1,0 +1,92 @@
+<!-- Q-7 Design a visually stunning photo gallery using CSS Grid for a photographer's portfolio website. The goal is to 
+create a dynamic layout that showcases the photographer's images in an organized and visually appealing 
+manner. By leveraging the power of CSS Grid, ensure that the gallery provides a seamless and immersive 
+user experience, allowing visitors to easily navigate through the photos and appreciate the photographer's 
+work -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body{
+            background-color: #363062;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,250px);
+            gap: 20px;
+            border: 5px solid yellow;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .picture-1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end:2;
+        }
+        
+        .picture-2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end:3;
+        }
+        .picture-3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end:2;
+        }
+        .picture-4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end:4;
+        }
+        .picture-5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end:4;
+        }
+        .picture-6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end:4;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="picture-1">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="image-01">
+        </div>
+        <div class="picture-2">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" alt="image-02">
+        </div>
+        <div class="picture-3">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" alt="image-03">
+        </div>
+        <div class="picture-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" alt="image-04">
+        </div>
+        <div class="picture-5">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="image-05">
+        </div>
+        <div class="picture-6">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" alt="image-06">
+        </div>
+    </div>
+</body>
+</html>
