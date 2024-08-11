@@ -1,0 +1,49 @@
+.card {
+    width: 300px;
+    margin: 200px auto;
+    background: linear-gradient(
+      90deg,
+      rgba(69, 164, 221, 1) 11%,
+      rgba(51, 78, 194, 1) 100%,
+      rgba(233, 177, 140, 1) 100%
+    );
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: rotate(-45deg);
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+
+  .head h1 {
+    color: #000;
+  }
+
+  .body {
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    background: linear-gradient(
+      90deg,
+      rgba(69, 221, 219, 1) 11%,
+      rgba(51, 194, 91, 1) 100%,
+      rgba(233, 177, 140, 1) 100%
+    );
+  }

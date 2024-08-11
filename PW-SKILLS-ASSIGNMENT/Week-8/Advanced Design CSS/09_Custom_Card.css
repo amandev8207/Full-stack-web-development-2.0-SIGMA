@@ -1,0 +1,48 @@
+:root {
+    --d-flex: flex;
+    --p-10: 10px;
+    --color-white: #fff;
+    --color-grey: #ffffff62;
+  }
+
+  .card {
+    width: 450px;
+    background: #242b2e;
+    display: var(--d-flex);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--p-10);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    border-radius: 20px;
+    border: 3px solid var(--color-white);
+    margin: auto;
+  }
+
+  img {
+    width: 210px;
+    height: 120px;
+  }
+
+  h1 {
+    color: var(--color-white);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  p {
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: var(--p-10);
+    color: var(--color-grey);
+  }
+
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-grey);
+    border-radius: 2px;
+  }

@@ -1,0 +1,20 @@
+.landing-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #59a3d4, #3a068e);
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+  }
