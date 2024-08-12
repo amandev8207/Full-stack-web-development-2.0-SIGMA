@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+
+      div {
+        margin: 10px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="validateAndSubmit(event)">
+      <h1>Sign Up Form</h1>
+      <div>
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          placeholder="( Minimum 3 characters )"
+          name="name"
+          id="name"
+        />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          placeholder="Enter Your Email"
+          name="email"
+          id="email"
+        />
+      </div>
+      <div>
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          placeholder="( Minimum 8 characters )"
+          id="password"
+        />
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+ <script src="04_DOM.js"></script>
+  </body>
+</html>
